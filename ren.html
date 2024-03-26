@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الألعاب الفيديو</title>
+    <style>
+        body {
+            background-color: #151515;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .game-link {
+            display: inline-block;
+            margin: 20px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+        .game-link:hover {
+            transform: translateY(-10px);
+        }
+        .game-link img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            transition: transform 0.3s;
+        }
+        .game-link:hover img {
+            transform: scale(1.05);
+        }
+        .game-info {
+            background-color: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .game-link:hover .game-info {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .game-info p {
+            margin: 5px 0;
+            font-size: 24px;
+        }
+        .channel-logo {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            background-color: #000;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="SmartSelect_20240324-232126_Chrome.png" alt="لوغو قناتك" class="channel-logo">
+        <h1>مرحبًا بك في موقع الألعاب الفيديو</h1>
+        <p>استمتع بمشاهدة صور من بعض الألعاب التي لعبتها:</p>
+        <div class="game-link">
+            <a href="https://play.google.com/store/apps/details?id=com.miracle.drawtosave.an" target="_blank">
+                <img src="SmartSelect_20240325-222801_Google.jpg" alt="صورة اللعبة 1">
+                <div class="game-info">
+                    <p>لعبة Draw to Save</p>
+                </div>
+            </a>
+        </div>
+        <div class="game-link">
+            <a href="https://play.google.com/store/apps/details?id=com.mind.quiz.brain.out" target="_blank">
+                <img src="Screenshot_20240325-222650_Google.jpg" alt="صورة اللعبة 2">
+                <div class="game-info">
+                    <p>لعبة Brain Out</p>
+                </div>
+            </a>
+        </div>
+        <div class="game-link">
+            <a href="https://play.google.com/store/apps/details?id=com.orbital.brainiton" target="_blank">
+                <img src="SmartSelect_20240325-222731_Google.jpg" alt="صورة اللعبة 3">
+                <div class="game-info">
+                    <p>لعبة Brain It On</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p>تصميم الموقع بواسطة [REN] - جميع الحقوق محفوظة &copy; 2024</p>
+    </footer>
+</body>
+</html>
